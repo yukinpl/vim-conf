@@ -34,12 +34,12 @@ set backspace=indent,eol,start
 
 if has("gui_running")
 
-set lines=50
-set columns=100
+	set lines=50
+	set columns=100
 
     if has( "gui_win32" ) || has( "gui_win32s" )
         set guifont=Ubuntu\ Mono:h12
-    else
+    elseif has( "gui_gtk" ) || has( "gui_gtk2" ) || has( "gui_gtk3" )
         set guifont=Ubuntu\ Mono\ 12
     endif
 
