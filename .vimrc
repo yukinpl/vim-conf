@@ -37,7 +37,7 @@ if has("gui_running")
 set lines=50
 set columns=100
 
-set guifont=Ubuntu\ Mono:h12
+set guifont=Ubuntu\ Mono\ 12
 
 endif
 
